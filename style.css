@@ -9,6 +9,7 @@ video#video {
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover; 
+  overflow:hidden;
 }
 
 @font-face {
@@ -16,11 +17,14 @@ video#video {
   font-style: normal;
   font-weight: normal;
   src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+  overflow:hidden;
 }
 
 * {
   font-family: 'Bebas Neue';
-  color: #00FFFF;
+  color: #ff0080;
+  overflow:hidden;
+  text-decoration: none;
 }
 
 .centerContainer {
@@ -40,7 +44,7 @@ video#video {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #00FFFF;
+  background-color: #ff0080;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -49,12 +53,27 @@ video#video {
   width: 100%;
 }
 
+#bigboy {
+	text-align: center;
+	font-size: 25px;
+}
+
+#kewl
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
 #membersList {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   overflow: hidden;
   font-size: 22px;
-  height: calc(100% - 450px);
+  height: calc(95% - 450px);
   width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -77,5 +96,5 @@ video#video {
 
 .scrollbar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 0, 128, 0.5);
 }
