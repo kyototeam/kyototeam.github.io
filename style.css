@@ -1,3 +1,4 @@
+
 video#video { 
   position: fixed;
   top: 50%;
@@ -16,21 +17,30 @@ video#video {
   font-family: 'Bebas Neue';
   font-style: normal;
   font-weight: normal;
-  src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+  src: local('Bebas Neue'), url('https://kyoto.team/BebasNeue.woff') format('woff');
   overflow:hidden;
 }
 
 * {
   font-family: 'Bebas Neue';
-  color: #ff0080;
+  color: #40d571;
   overflow:hidden;
   text-decoration: none;
 }
+
 
 .centerContainer {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#header {
+  font-family: 'Bebas Neue';
+  color: #fefefe;
+  overflow:hidden;
+  text-decoration: none;
+  text-align: center;
 }
 
 #quoteText {
@@ -44,7 +54,7 @@ video#video {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ff0080;
+  background-color: #40d571;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -85,6 +95,9 @@ video#video {
   overflow: auto;
 }
 
+
+}
+
 .scrollbar::-webkit-scrollbar-track {
 	border-radius: 10px;
 	background-color: rgba(0, 0, 0, 0.3);
@@ -96,5 +109,5 @@ video#video {
 
 .scrollbar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	background-color: rgba(255, 0, 128, 0.5);
+	background-color: rgba(64, 213, 113, 1);
 }
