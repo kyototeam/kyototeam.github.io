@@ -34,5 +34,48 @@
     <video autoplay loop id="video" onloadstart="this.volume=0.1">
       <source src="https://cdn-e2.streamable.com/video/mp4/55xmz_1.mp4?token=1501437671_dacca1c215c19eef498d58d40319da42626b4c02" type="video/mp4">
     </video>
+	  				<!--DISABLES: RIGHT CLICK, F12, CTRL+U, ETC.-->
+		
+		<script language="JavaScript">
+
+		$(document).on("contextmenu",function(e){        
+		 e.preventDefault();
+		});
+		</script> 
+		<script language="JavaScript">
+
+		$(document).keydown(function(event){
+		  if(event.keyCode==123){
+		  return false;
+		 }
+		else if(event.ctrlKey && event.shiftKey && event.keyCode==73){        
+		    return false;  //Prevent from ctrl+shift+i
+		 }
+		});
+		</script> 
+		<script>
+
+		document.onkeydown = function(e) { 
+		if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
+		} 
+		return false; 
+		}; 
+		</script> 
+		<script>
+
+		function click() { 
+		if (event.button==2||event.button==3) { 
+		oncontextmenu='return false'; 
+		} 
+		} 
+		document.onmousedown=click 
+		document.oncontextmenu = new Function("return false;") 
+		</script> 
+		
+		<script>
+		          window.onload = function() { document.body.className = ''; }
+		          window.ontouchmove = function() { return false; }
+		          window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
   </body>
 </html>
