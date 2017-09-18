@@ -58,11 +58,6 @@ form {
    margin-right:auto;
    width:100px;
 }
-html, body {
-    cursor: url("../img/SR-normal.ico"), default;
-    /* just change the cursor.ico path to your location */
-
-}
 body, a, a:link{cursor:url(../img/SR-normal.ico), default;} a:hover {cursor:url(../img/SR-link.ico),pointer;}
 .japanese {
 	font-size: 250%;
