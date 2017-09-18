@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="./assets/css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/star-animation.css">
 	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/js.css">
+	<script src="./assets/js/jquery.js"></script>
 </head>
 	<body data-gr-c-s-loaded="true">
 	<div class="bg-animation">
@@ -47,6 +49,10 @@
     <script>document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 	}, false);</script>
+			<!--CSS Spinner-->
+<div class="cssload-container">
+	<div class="cssload-item cssload-moon"></div>
+</div>
     <!--––add all the brackets in under this––-->
 	<div class="overlay"><marquee bgcolor="black" height="60" scrollamount="35"></marquee></div>
 
@@ -99,8 +105,8 @@
 					</a>
 				</li>
 				<li class="list-inline-item">
-					<a href="./files/MemeKids Clicker.jar" target="_blank">
-						<i class="fa fa-download" aria-hidden="true"></i>
+					<a href="#" target="_blank">
+						<i class="fa fa-circle-o-notch fa-spin" aria-hidden="true"></i>
 					</a>
 				</li></ul>
 		</div>
@@ -122,5 +128,19 @@
 		<div id="info"><center>Want to join us? <a href="https://kyoto.team/discord" target="_blank" class="japanese4" >Click here to join our discord</a></center><marquee bgcolor="black" height="60" scrollamount="35"><p></p><p></p><div class="japanese3"></div>
 		</marquee>
 		</div></font></div>
+	   <script>
+$(document).ready(function() {
+//Preloader
+$(window).load(function() {
+preloaderFadeOutTime = 1500;
+function hidePreloader() {
+var preloader = $('.cssload-container');
+preloader.fadeOut(preloaderFadeOutTime);
+
+}
+hidePreloader();
+});
+});
+</script>
 	</body>
 </html>
