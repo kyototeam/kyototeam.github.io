@@ -58,7 +58,7 @@ form {
    margin-right:auto;
    width:100px;
 }
-body, a, a:link{cursor:url(../img/SR-normal.ico), default;} a:hover {cursor:url(../img/SR-link.ico),pointer;}
+body, a, a:link{cursor:url(../img/cur817.ico), default;} a:hover {cursor:url(../img/cur817.ico),pointer;}
 .japanese {
 	font-size: 250%;
 	-webkit-text-stroke-width: 0px;
