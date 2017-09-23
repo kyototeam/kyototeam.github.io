@@ -88,7 +88,7 @@ body, a, a:link{cursor:url(../img/cur817.ico), default;} a:hover {cursor:url(../
 .shoutout {
 	font-size: 100%;
 	position: absolute;
-		bottom: 70%;
+		bottom: 90%;
 		right: 48%;
 	-webkit-text-stroke-width: 0px;
    -webkit-text-stroke-color: black;
@@ -213,3 +213,42 @@ right: 46.4%;
 	    -webkit-filter: contrast(115%) drop-shadow(8px 8px 10px black); /* Safari 6.0 - 9.0 */
     filter: contrast(115%) drop-shadow(8px 8px 10px black);
 }
+/* VOLUME BAR CSS */
+
+/* volume bar */
+ .volume {
+    position:fixed;
+    width:150px;
+    height:10px;
+    float:left;
+    margin-top:60px;
+    margin-left:30px;
+    background-color:#000;
+
+}
+.volumeBar {
+    display:block;
+    height:10px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#fff;
+    z-index:10;
+    width: 30%;
+}
+.volume3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 100px;
+    border-color: transparent transparent #007bff transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #007bff #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+.discord {
+    position: fixed;
+    float: right;
+    margin-top: 205px;
+    margin-left: -20px;
+  }
