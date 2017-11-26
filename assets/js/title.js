@@ -16,7 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = [ "⠀", "K ", "K y ", " K y o ", " K y o t ", " K y o t o ", " K y o t ", " K y o ", " K y ", " K "];
+var titleText = [ "⠀"];
 
 function loop() {
 
