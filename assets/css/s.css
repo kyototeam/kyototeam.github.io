@@ -77,7 +77,7 @@ form {
    margin-right:auto;
    width:100px;
 }
-body, a, a:link{cursor:url(../img/c), default;} a:hover {cursor:url(../img/c),pointer;}
+body, a, a:link{cursor:url(../img/c.cur), default;} a:hover {cursor:url(../img/c.cur),pointer;}
 img {
 }
 img:hover {
