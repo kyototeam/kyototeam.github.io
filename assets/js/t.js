@@ -16,7 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = [ "// haz", "// rival", "// uglyh", "// daunti", "// paz"];
+var titleText = [ " "];
 
 function loop() {
 
