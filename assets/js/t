@@ -16,11 +16,10 @@ function loaded() {
 
 var x = 0;
 
-var titleText = [ "⠀"];
+var titleText = [ "// haz", "// rival", "// uglyh", "// daunti", "// paz"];
 
 function loop() {
 
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
 
 }
-
