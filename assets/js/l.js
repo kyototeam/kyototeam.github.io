@@ -1,6 +1,3 @@
-if (screen.width <= 699) {
-  document.location = "m.html";
-}
 document.onkeypress = function(event) {
   event = (event || window.event);
   if (event.keyCode == 123) {
