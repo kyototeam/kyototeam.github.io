@@ -78,9 +78,22 @@ form {
    width:100px;
 }
 body, a, a:link{cursor:url(../img/c.cur), default;} a:hover {cursor:url(../img/c.cur),pointer;}
-img {
+#img {
 }
-img:hover {
+#img:hover {
       -webkit-animation: pluse 1s;
     animation: pulse 1s;
+}
+#bg {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background-size: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
